@@ -13,7 +13,7 @@ var lovesCode = true;
 // #4 Using the previously created variables, create a new variable called 'me' that uses the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
 // CODE HERE
-var me = "My name is " + myName + " and my favorite number is " + faveNum + ".";
+var me = "My name is " + myName + " and my favorite number is " + faveNum;
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
 // CODE HERE
@@ -28,9 +28,9 @@ var canDrive;
 
 // CODE HERE
 if (age > 16){
-  candrive = true;
+  canDrive = true;
 } else {
-  candrive = false;
+  canDrive = false;
 }
 // #8 Create an if statement inside of the responseCreator function that sets the colorResponse variable value based off of a passed in value. The param value passed in will be added in the unit test. If the param value is 'green' set colorResponse variable to 'Green is okay'. If the param value is 'red' set reponse variable to 'I heart red'. Otherwise set the colorResponse variable to 'What is your favorite color?'. Make sure to return the colorResponse variable at the end once it has been properly set.
 
@@ -58,5 +58,5 @@ function sum(param){
 
 // CODE HERE
 function greeter (name, number){
-  return "Hi! I am " + name + " and I am " + number + " years old."
+  return "Hi! I am " + name + " and I am " + number + " years old"
 }
